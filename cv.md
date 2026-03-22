@@ -4,11 +4,11 @@
 
 ## Contacts
 
-* **Email:** <bt.devmastery@gmail.com>
-* **Phone:** +48 886 044 919
-* **GitHub:** [https://github.com/BogdanBTS](https://github.com/BogdanBTS)
-* **LinkedIn:** [https://www.linkedin.com/in/bogdan-tsaruk-dev/](https://www.linkedin.com/in/bogdan-tsaruk-dev/)
-* Bogdan Tsaruk (@bogdanbts)
+- **Email:** <bt.devmastery@gmail.com>
+- **Phone:** +48 886 044 919
+- **GitHub:** [https://github.com/BogdanBTS](https://github.com/BogdanBTS)
+- **LinkedIn:** [https://www.linkedin.com/in/bogdan-tsaruk-dev/](https://www.linkedin.com/in/bogdan-tsaruk-dev/)
+- Bogdan Tsaruk (@bogdanbts)
 
 ## Self-introduction
 
@@ -16,5 +16,4 @@
 
 ## Skills
 
-* React, React Native, JavaScript, HTML5, CSS, SCSS, SQL, Redux, JSON, Axios, REST API, jQuery, Git, GitHub, Figma, NPM, Webpack, Open Source, Responsive / Adaptive Design, CrossBrowser Compatibility, SPA, Accessibility, Debugging & Troubleshooting, Kanban, SCRUM, Agile, UX, Postman.
-
+- React, React Native, JavaScript, HTML5, CSS, SCSS, SQL, Redux, JSON, Axios, REST API, jQuery, Git, GitHub, Figma, NPM, Webpack, Open Source, Responsive / Adaptive Design, CrossBrowser Compatibility, SPA, Accessibility, Debugging & Troubleshooting, Kanban, SCRUM, Agile, UX, Postman.
