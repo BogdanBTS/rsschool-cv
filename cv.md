@@ -11,6 +11,7 @@
 - Bogdan Tsaruk (@bogdanbts)
 
 ## Self-introduction
+
 Hey, I'm Bogdan, a creative developer from Gdańsk, Poland (originally from Zhytomyr, Ukraine). I'm passionate about creating stunning websites that are both visually appealing and user-friendly. I have expertise in translating designs into fully functional and accessible websites, and utilize my development skills to enhance and customize their features.
 
 ## Skills
