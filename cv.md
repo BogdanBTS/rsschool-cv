@@ -60,13 +60,13 @@ Hey, I'm **Bogdan**, a _creative developer_ from Gdańsk, Poland (originally fro
 - Front-End Development, Beetroot Academy, 2021 – 2022, Ukraine, [Certificate](https://drive.google.com/file/d/13fH7qdHTmI7Gf3MO1Gifz7iSB2zPP-a_/view?usp=sharing).
 - Software Testing, [Portnov Computer School](https://www.portnov.com/), 2015 in Los Altos, CA, USA.
   - Course is taught in person and entirely in English.
-- Open Source Contribution - Neetcode.io, https://neetcode.io/
+- Open Source Contribution - Neetcode.io, <https://neetcode.io/>
   - Сreated a missing solution to the problem (rotate array) in JavaScript. The contribution was made following the contribution guidelines. <https://github.com/neetcode-gh/leetcode/pull/3051>
-- Open Source Contribution - Some drops of JavaScript (open-source book), https://drops-of-javascript.hi-folks.dev/
+- Open Source Contribution - Some drops of JavaScript (open-source book), <https://drops-of-javascript.hi-folks.dev/>
   - Identified and fixed an error in the description of an expected outcome for the array method .fill(). The contribution enhanced the accuracy of the book. <https://github.com/roberto-butti/some-drops-of-javascript/pull/23>
-- My Portfolio - https://bogdan-tsaruk.netlify.app/
+- My Portfolio - <https://bogdan-tsaruk.netlify.app/>
   - Responsive React web project crafted solely using React, GRID, FLEX, CSS Modules, animations, and accessible features that elevate the user experience. [GitHub Link](https://github.com/BogdanBTS/myPortfolio).
-- bMovies - https://bmovies-info.netlify.app/
+- bMovies - <https://bmovies-info.netlify.app/>
   - React web application with search functionality, information about Movies, TV series, Actors. Utilizes the TMDB API through the AXIOS for data retrieval. [GitHub Link](https://github.com/BogdanBTS/Beetroot_projects/tree/master/Movie_app/my-app/).
 
 ## Languages
