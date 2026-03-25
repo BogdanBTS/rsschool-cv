@@ -82,3 +82,48 @@ padding-bottom: 0.5rem;
 .canidate__title {
     text-align: center;
 }
+.contacts__list {
+    display: block;
+    list-style-type: disc;
+    line-height: 1.6;
+    margin-block-start: 1rem;
+    margin-block-end: 1rem;
+    padding-inline-start: 1.25rem;
+    unicode-bidi: isolate;
+}
+
+.heading-h2 {
+    background: rgb(40, 130, 160);
+    color: #fff;
+    padding: 0.5625rem;
+    margin: 1rem 0;
+    font-size: 1.1875rem;
+    
+    border-radius: 3.125rem;
+}
+.heading-h3 {
+    font-size: 1rem;
+}
+
+.self-introduction__text {
+    margin-block-start: 1rem;
+    margin-block-end: 1rem;
+    text-indent: 2%;
+    text-align: justify;
+    line-height: 1.6;
+}
+
+.skills__list {
+    display: block;
+    list-style-type: disc;
+    line-height: 1.6;
+    margin-block-start: 1rem;
+    margin-block-end: 1rem;
+    padding-inline-start: 1.25rem;
+    unicode-bidi: isolate;
+}
+
+.skills__list-item {
+    text-align: justify;
+    line-height: 1.6;
+}
