@@ -65,3 +65,20 @@ padding-bottom: 0.5rem;
 .menu__link:hover:after {
     width: 100%;
 }
+
+.candidate__photo-area {
+    width: 15.625rem;
+    height: 15.625rem;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 1.5625rem auto;
+    border: 0.9375rem groove deepskyblue;
+}
+
+.candidate__img {
+    width: 100%;
+}
+
+.canidate__title {
+    text-align: center;
+}
