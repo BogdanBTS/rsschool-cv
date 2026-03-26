@@ -1,0 +1,224 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background: #f5f5f5;
+}
+
+.container {
+    background: #fdfbfb;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1200px;
+    overflow: auto;
+    padding: 0 1.25rem;
+}
+
+a {
+    color: #070707;
+    text-decoration: none;
+}
+
+
+.menu__list {
+    list-style: none;
+    margin-block-start: 1rem;
+    margin-block-end: 1rem;
+    padding-inline-start: 1.25rem;
+    unicode-bidi: isolate;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+
+    background: rgb(40, 130, 160);
+    padding: 0.625rem;
+    margin: 1rem 0;
+    font-size: 1rem;
+    border-radius: 3.125rem;
+}
+
+.menu_list-item {
+    position: relative;
+    padding-bottom: 0.5rem;
+}
+
+.menu__link {
+    color: #fff;
+}
+
+.menu__link::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 0.2125rem;
+    bottom: 0;
+    left: 50%;
+    border-radius: 1.125rem;
+    background-color: deepskyblue;
+    transition: all 0.3s ease;
+    transform: translateX(-50%);
+    box-shadow: 0 0 10px deepskyblue, 0 0 20px deepskyblue, 0 0 30px deepskyblue;
+}
+
+.menu__link:hover:after {
+    width: 100%;
+}
+
+.candidate__photo-area {
+    width: 15.625rem;
+    height: 15.625rem;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 1.5625rem auto;
+    border: 0.9375rem groove deepskyblue;
+}
+
+.candidate__img {
+    width: 100%;
+}
+
+.canidate__title {
+    text-align: center;
+}
+
+.contacts__list {
+    display: block;
+    list-style-type: disc;
+    line-height: 1.6;
+    margin-block-start: 1rem;
+    margin-block-end: 1rem;
+    padding-inline-start: 1.25rem;
+    unicode-bidi: isolate;
+}
+
+.heading-h2 {
+    background: rgb(40, 130, 160);
+    color: #fff;
+    padding: 0.5625rem;
+    margin: 1rem 0;
+    font-size: 1.1875rem;
+
+    border-radius: 3.125rem;
+}
+
+.heading-h3 {
+    font-size: 1rem;
+}
+
+.self-introduction__text {
+    margin-block-start: 1rem;
+    margin-block-end: 1rem;
+    text-indent: 2%;
+    text-align: justify;
+    line-height: 1.6;
+}
+
+.skills__list {
+    display: block;
+    list-style-type: disc;
+    line-height: 1.6;
+    margin-block-start: 1rem;
+    margin-block-end: 1rem;
+    padding-inline-start: 1.25rem;
+    unicode-bidi: isolate;
+}
+
+.skills__list-item {
+    text-align: justify;
+    line-height: 1.6;
+}
+
+pre {
+    display: block;
+    unicode-bidi: isolate;
+    white-space: pre;
+    margin-inline: 0rem;
+}
+
+code {
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 0;
+    font-size: 0.875rem;
+    font-family: monospace;
+}
+
+.work-experience__list {
+    display: block;
+    list-style-type: disc;
+    line-height: 1.6;
+    margin-block-start: 1rem;
+    margin-block-end: 1rem;
+    padding-inline-start: 1.25rem;
+    unicode-bidi: isolate;
+}
+
+.work-experience__description {
+    text-align: justify;
+    line-height: 1.6;
+}
+
+.education-projects__list {
+    display: block;
+    list-style-type: disc;
+    line-height: 1.6;
+    margin-block-start: 1rem;
+    margin-block-end: 1rem;
+    padding-inline-start: 1.25rem;
+    unicode-bidi: isolate;
+}
+
+.education-projects__description {
+    text-align: justify;
+    line-height: 1.6;
+}
+
+.languages__list {
+    display: block;
+    list-style-type: disc;
+    line-height: 1.6;
+    margin-block-start: 1rem;
+    margin-block-end: 1rem;
+    padding-inline-start: 1.25rem;
+    unicode-bidi: isolate;
+}
+
+.footer__content {
+    align-items: center;
+    display: flex;
+    padding: 1.25rem;
+    justify-content: space-between;
+}
+
+.rsschool-img {
+    width: 5.625rem;
+    height: 5.625rem;
+}
+
+@media (max-width: 918px) {
+    .menu__list {
+        font-size: 1.25rem;
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 783px) {
+    code {
+        font-size: small;
+        font-size: 0.75rem;
+    }
+
+}
+
+@media (max-width: 615px) {
+    code {
+        font-size: 0.4375rem;
+    }
+
+}
