@@ -1,100 +1,323 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bogdan Tsaruk CV</title>
-    <link rel="icon" type="image/x-icon" href="./assets/favicon.ico">
-    <link rel="stylesheet" href="style.css">
-  </head>
-  <body>
-<header class="header">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bogdan Tsaruk CV</title>
+  <link rel="icon" type="image/x-icon" href="./assets/favicon.ico">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+      <nav class="menu">
+        <ul class="menu__list">
+          <li class="menu_list-item">
+            <a class="menu__link" href="#candidate-id">Candidate</a>
+          </li>
+          <li class="menu_list-item">
+            <a class="menu__link" href="#contacts-id">Contacts</a>
+          </li>
+          <li class="menu_list-item">
+            <a class="menu__link" href="#self-introduction-id">Self-introduction</a>
+          </li>
+          <li class="menu_list-item">
+            <a class="menu__link" href="#skills-id">Skills</a>
+          </li>
+          <li class="menu_list-item">
+            <a class="menu__link" href="#code-example-id">Code example</a>
+          </li>
+          <li class="menu_list-item">
+            <a class="menu__link" href="#work-experience-id">Work experience</a>
+          </li>
+          <li class="menu_list-item">
+            <a class="menu__link" href="#education-id">Education with Projects</a>
+          </li>
+          <li class="menu_list-item">
+            <a class="menu__link" href="#languages-id">Languages</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main class="main">
+    <section class="candidate" id="candidate-id">
       <div class="container">
-        <nav class="menu">
-          <ul class="menu__list">
-            <li class="menu_list-item">
-              <a class="menu__link" href="#candidate-id">Candidate</a>
-            </li>
-            <li class="menu_list-item">
-              <a class="menu__link" href="#contacts-id">Contacts</a>
-            </li>
-            <li class="menu_list-item">
-              <a class="menu__link" href="#self-introduction-id">Self-introduction</a>
-            </li>
-            <li class="menu_list-item">
-              <a class="menu__link" href="#skills-id">Skills</a>
-            </li>
-            <li class="menu_list-item">
-              <a class="menu__link" href="#code-example-id">Code example</a>
-            </li>
-            <li class="menu_list-item">
-              <a class="menu__link" href="#work-experience-id">Work experience</a>
-            </li>
-            <li class="menu_list-item">
-              <a class="menu__link" href="#education-id">Education with Projects</a>
-            </li>
-            <li class="menu_list-item">
-              <a class="menu__link" href="#languages-id">Languages</a>
-            </li>
-          </ul>
-        </nav>
+        <div class="candidate__photo-area">
+          <img class="candidate__img" src="./assets/photo_main.jpeg" alt="Bogdan's photo">
+        </div>
+        <div class="canidate__title">
+          <h1 class="candidate__title-name">Bogdan Tsaruk - Junior Front-end Developer</h1>
+        </div>
       </div>
-    </header>
-    <main class="main">
-        <section class="candidate" id="candidate-id">
-            <div class="container">
-                <div class="candidate__photo-area">
-                    <img class="candidate__img" src="./assets/photo_main.jpeg" alt="Bogdan's photo">
-                </div>
-                <div class="canidate__title">
-                    <h1 class="candidate__title-name">Bogdan Tsaruk - Junior Front-end Developer</h1>
-                </div>
+    </section>
+    <section class="contacts" id="contacts-id">
+      <div class="container">
+        <div class="title">
+          <h2 class="heading-h2">Contacts</h2>
+        </div>
+        <ul class="contacts__list">
+          <li class="contacts__list-item">Email:
+            <a href="mailto:bt.devmastery@gmail.com" class="contacts__list-link">bt.devmastery@gmail.com</a>
+          </li>
+          <li class="contacts__list-item">Phone:
+            <a href="tel:+48886044919" class="contacts__list-link">+48&nbsp;886&nbsp;044&nbsp;919</a>
+          </li>
+          <li class="contacts__list-item">GitHub:
+            <a href="https://github.com/BogdanBTS" class="contacts__list-link">https://github.com/BogdanBTS</a>
+          </li>
+          <li class="contacts__list-item">LinkedIn:
+            <a href="https://www.linkedin.com/in/bogdan-tsaruk-dev/"
+              class="contacts__list-link">https://www.linkedin.com/in/bogdan-tsaruk-dev/</a>
+          </li>
+          <li class="contacts__list-item">Discord: Bogdan Tsaruk (@bogdanbts)</li>
+        </ul>
+      </div>
+    </section>
+    <section class="self-introduction" id="self-introduction-id">
+      <div class="container">
+        <div class="title">
+          <h2 class="heading-h2">Self-introduction</h2>
+        </div>
+        <div class="self-introduction__text">
+          <p>Hey, I'm Bogdan, a creative developer from Gdańsk, Poland (originally from Zhytomyr, Ukraine). I'm
+            passionate about creating stunning websites that are both visually appealing and user-friendly. I have
+            expertise in translating designs into fully functional and accessible websites, and utilize my development
+            skills to enhance and customize their features.</p>
+        </div>
+      </div>
+    </section>
+    <section class="skills" id="skills-id">
+      <div class="container">
+        <div class="title">
+          <h2 class="heading-h2">Skills</h2>
+        </div>
+        <ul class="skills__list">
+          <li class="skills__list-item">React, React Native, JavaScript, HTML5, CSS, SCSS, SQL, Redux, JSON, Axios, REST
+            API, jQuery, Git, GitHub, Figma, NPM, Webpack, Open Source, Responsive / Adaptive Design, CrossBrowser
+            Compatibility, SPA, Accessibility, Debugging & Troubleshooting, Kanban, SCRUM, Agile, UX, Postman.
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="code-example" id="code-example-id">
+      <div class="container">
+        <div class="title">
+          <h2 class="heading-h2">Code example</h2>
+        </div>
+        <div class="code-example">
+          <pre><code>  
+            function multiply(a, b){
+              if (!a || !b || typeof(a) != "number" || typeof(b) != "number") {
+                return 0;
+              }
+              return a * b;
+            }
+                      </code></pre>
+        </div>
+      </div>
+    </section>
+    <section class="work-experience" id="work-experience-id">
+      <div class="container">
+        <div class="title">
+          <h2 class="heading-h2">Work experience</h2>
+        </div>
+        <ul class="work-experience__list">
+          <li class="work-experience__list-item">
+            <h3 class="heading-h3">Software QA Engineer (Intern), ActiveTen Software,
+              2015 | Sunnyvale, CA, USA</h3>
+            <div class="work-experience__description">
+              Contributed to a 5% increase in team efficiency by actively participating in manual software testing
+              alongside
+              a team of 10 members. Expanded test coverage by 10% through the creation of diverse testing environments
+              on
+              different OS in VMware. Received a Certificate of Appreciation for achieving improvement in overall
+              testing
+              quality and being an Outstanding QA Test Professional.
             </div>
-        </section>
-        <section class="contacts" id="contacts-id">
-            <div class="container">
-                <div class="title">
-                    <h2 class="heading-h2">Contacts</h2>
-                </div>
-                <ul class="contacts__list">
-                    <li class="contacts__list-item">Email:
-                        <a href="mailto:bt.devmastery@gmail.com" class="contacts__list-link">bt.devmastery@gmail.com</a>
-                    </li>
-                    <li class="contacts__list-item">Phone:
-                        <a href="tel:+48886044919" class="contacts__list-link">+48&nbsp;886&nbsp;044&nbsp;919</a>
-                    </li>
-                    <li class="contacts__list-item">GitHub:
-                        <a href="https://github.com/BogdanBTS" class="contacts__list-link">https://github.com/BogdanBTS</a>
-                    </li>
-                    <li class="contacts__list-item">LinkedIn:
-                        <a href="https://www.linkedin.com/in/bogdan-tsaruk-dev/" class="contacts__list-link">https://www.linkedin.com/in/bogdan-tsaruk-dev/</a>
-                    </li>
-                    <li class="contacts__list-item">Discord: Bogdan Tsaruk (@bogdanbts)</li>
-                </ul>
-            </div>   
-        </section>
-        <section class="self-introduction" id="self-introduction-id">
-            <div class="container">
-                <div class="title">
-                    <h2 class="heading-h2">Self-introduction</h2>
-                </div>
-                <div class="self-introduction__text">
-                <p>Hey, I'm Bogdan, a creative developer from Gdańsk, Poland (originally from Zhytomyr, Ukraine). I'm passionate about creating stunning websites that are both visually appealing and user-friendly. I have expertise in translating designs into fully functional and accessible websites, and utilize my development skills to enhance and customize their features.</p>
-                </div>
+          </li>
+          <li class="work-experience__list-item">
+            <h3 class="heading-h3">Trucking business in the USA,
+              2012 – 2021 | Chicago, IL, USA</h3>
+            <div class="work-experience__description">
+              Developed a system for regular maintenance of the truck, resulted in a 20% reduction in unforeseen costs
+              (2017). Developed optimal logistics routes that led to a 21% increase in revenue 2019-2020.
             </div>
-        </section>
-        <section class="skills" id="skills-id">
-            <div class="container">
-                <div class="title">
-                    <h2 class="heading-h2">Skills</h2>
-                </div>
-                <ul class="skills__list">
-                    <li class="skills__list-item">React, React Native, JavaScript, HTML5, CSS, SCSS, SQL, Redux, JSON, Axios, REST API, jQuery, Git, GitHub, Figma, NPM, Webpack, Open Source, Responsive / Adaptive Design, CrossBrowser Compatibility, SPA, Accessibility, Debugging & Troubleshooting, Kanban, SCRUM, Agile, UX, Postman.
-                    </li>
-                </ul>
+          </li>
+          <li class="work-experience__list-item">
+            <h3 class="heading-h3">Chief expert of corporate clients department, First Ukrainian International Bank
+              (PUMB),
+              2010 – 2012 | Zhytomyr, Ukraine</h3>
+            <div class="work-experience__description">Maintained accurate loan records, resulting in a 12% reduction in
+              discrepancies during internal audits. Improved negotiation strategies, resulting in a 7% increase in
+              successful loan term agreements in 2011.</div>
+          </li>
+          <li class="work-experience__list-item">
+            <h3 class="heading-h3">Leading specialist in credit operations department for corporate clients, Swedbank,
+              2008
+              – 2009 | Zhytomyr, Ukraine</h3>
+            <div class="work-experience__description">Increased the share of timely monthly loan payments by 9% thanks
+              to
+              proactive support and prompt resolution of payment issues. Implemented a rigorous collateral property
+              evaluation process, resulting in a 15% reduction in valuation discrepancies.</div>
+          </li>
+          <li class="work-experience__list-item">
+            <h3 class="heading-h3">Expert in credit center for corporate clients, PrivatBank, 2006 – 2008 | Zhytomyr,
+              Ukraine</h3>
+            <div class="work-experience__description">Achieved an 8% reduction in errors by implementing a thorough
+              document
+              review process in the whole center.</div>
+          </li>
+        </ul>
+      </div>
+
+    </section>
+    <section class="education-projects" id="education-id">
+      <div class="container">
+        <div class="title">
+          <h2 class="heading-h2">Education with Projects</h2>
+        </div>
+        <ul class="education-projects__list">
+          <li class="education-projects__list-item">
+            <a href="https://international.e-u.edu.ua/" class="education-projects__list-link">
+              <h3 class="heading-h3">Private higher education institution "European University", Bachelor in "Banking
+                Business", 2007 | Ukraine.</h3>
+            </a>
+          </li>
+          <li class="education-projects__list-item">
+            <a href="https://res.cloudinary.com/dbfn5lnvx/image/authenticated/s--CbUOcBIA--/v1713968046/certificates/react/bogdantsaruk-4594.pdf"
+              class="education-projects__list-link">
+              <h3 class="heading-h3">React Tutorial (shopping app with Stripe) - Certificate, 2024.</h3>
+            </a>
+            <div class="education-projects__description">Site link - this course covers React 18 from scratch.</div>
+          </li>
+          <li class="education-projects__list-item">
+            <a href="https://www.udemy.com/certificate/UC-d0e91b21-3e7f-44ea-aa6a-10932a117b39/"
+              class="education-projects__list-link">
+              <h3 class="heading-h3">Computer Science 101: Master the Theory Behind Programming, 2023.</h3>
+            </a>
+          </li>
+          <li class="education-projects__list-item">
+            <a href="https://res.cloudinary.com/dbfn5lnvx/image/authenticated/s--Lzy8bZA2--/v1690052258/certificates/javascript/bogdantsaruk-9526.pdf"
+              class="education-projects__list-link">
+              <h3 class="heading-h3">JavaScript Software Development, LEARNJAVASCRIPT.ONLINE, 2023.
+              </h3>
+            </a>
+          </li>
+          <li class="education-projects__list-item">
+            <a href="https://drive.google.com/file/d/13fH7qdHTmI7Gf3MO1Gifz7iSB2zPP-a_/view?usp=sharing"
+              class="education-projects__list-link">
+              <h3 class="heading-h3">Front-End Development, Beetroot Academy, 2021 – 2022 | Ukraine.
+              </h3>
+            </a>
+            <div class="education-projects__description">Used tools: HTML5, CSS3, SCSS, Figma, JavaScript, GIT, GULP,
+              Axios,
+              React.js.</div>
+          </li>
+          <li class="education-projects__list-item">
+            <a href="https://www.portnov.com/" class="education-projects__list-link">
+              <h3 class="heading-h3">Software Testing, Portnov Computer School, 2015 | Los Altos, CA, USA.
+              </h3>
+            </a>
+            <div class="education-projects__description">Course is taught in person and entirely in English.</div>
+          </li>
+          <li class="education-projects__list-item">
+            <a href="https://neetcode.io/" class="education-projects__list-link">
+              <h3 class="heading-h3">Open Source Contribution - Neetcode.io, https://neetcode.io/
+              </h3>
+            </a>
+            <div class="education-projects__description">
+              <a href="https://github.com/neetcode-gh/leetcode/pull/3051" class="education-projects__description-link">
+                Сreated a missing solution to the problem (rotate array) in JavaScript. The contribution was made
+                following
+                the contribution guidelines. https://github.com/neetcode-gh/leetcode/pull/3051</a>
             </div>
-        </section>
-    </main>
-    <footer></footer>
-  </body>
+          </li>
+          <li class="education-projects__list-item">
+            <a href="https://drops-of-javascript.hi-folks.dev/" class="education-projects__list-link">
+              <h3 class="heading-h3">Open Source Contribution - Some drops of JavaScript (open-source book),
+                https://drops-of-javascript.hi-folks.dev/
+              </h3>
+            </a>
+            <div class="education-projects__description">
+              <a href="https://github.com/roberto-butti/some-drops-of-javascript/pull/23"
+                class="education-projects__description-link">Identified and fixed an error in the description of an
+                expected
+                outcome for the array method .fill(). The contribution enhanced the accuracy of the book.
+                https://github.com/roberto-butti/some-drops-of-javascript/pull/23
+              </a>
+            </div>
+          </li>
+          <li class="education-projects__list-item">
+            <a href="https://bogdan-tsaruk.netlify.app/" class="education-projects__list-link">
+              <h3 class="heading-h3">My Portfolio - https://bogdan-tsaruk.netlify.app/
+              </h3>
+            </a>
+            <div class="education-projects__description">
+              <a href="https://github.com/BogdanBTS/myPortfolio" class="education-projects__description-link">Responsive
+                React web project crafted solely using React, GRID, FLEX, CSS Modules, animations, and accessible
+                features
+                that elevate the user experience. GitHub Link.
+              </a>
+            </div>
+          </li>
+          <li class="education-projects__list-item">
+            <a href="https://bmovies-info.netlify.app" class="education-projects__list-link">
+              <h3 class="heading-h3">bMovies - https://bmovies-info.netlify.app/
+              </h3>
+            </a>
+            <div class="education-projects__description">
+              <a href="https://github.com/BogdanBTS/Beetroot_projects/tree/master/Movie_app/my-app/"
+                class="education-projects__description-link">React web application with search functionality,
+                information
+                about Movies, TV series, Actors. Utilizes the TMDB API through the AXIOS for data retrieval. GitHub
+                Link.
+              </a>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="languages" id="languages-id">
+      <div class="container">
+        <div class="title">
+          <h2 class="heading-h2">Languages</h2>
+          <ul class="languages__list">
+            <li class="languages__list-item">English - B2</li>
+            <li class="languages__list-item">Polish - A2/B1</li>
+            <li class="languages__list-item">Ukrainian - Native</li>
+            <li class="languages__list-item">Russian - Native</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__content">
+        <div class="footer__school">
+          <a href="https://rs.school/courses/javascript-preschool-ru" class="footer__rsschool">
+            <img src="./assets/rs-school-logo.svg" alt="Rs school logo written in black colored letters"
+              class="rsschool-img" />
+          </a>
+        </div>
+        <p>&#169; 2026 by Bogdan Tsaruk.</p>
+        <div class="footer__social">
+          <a href="https://github.com/BogdanBTS" class="footer__social-link">
+            <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 16 16" height="30" width="30"
+              xmlns="http://www.w3.org/2000/svg">
+              <desc>Icon of the GitHub</desc>
+              <path
+                d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z">
+              </path>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+
 </html>

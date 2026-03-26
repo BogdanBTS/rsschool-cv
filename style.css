@@ -1,10 +1,11 @@
 * {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-  scroll-behavior: smooth;
-  font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    font-family: Arial, Helvetica, sans-serif;
 }
+
 body {
     background: #f5f5f5;
 }
@@ -28,7 +29,7 @@ a {
     list-style: none;
     margin-block-start: 1rem;
     margin-block-end: 1rem;
-    padding-inline-start: 1.25rem;  
+    padding-inline-start: 1.25rem;
     unicode-bidi: isolate;
     align-items: center;
     display: flex;
@@ -41,12 +42,14 @@ a {
     border-radius: 3.125rem;
 }
 
-.menu_list-item{
-position: relative;
-padding-bottom: 0.5rem;
+.menu_list-item {
+    position: relative;
+    padding-bottom: 0.5rem;
 }
 
-.menu__link { color: #fff;}
+.menu__link {
+    color: #fff;
+}
 
 .menu__link::after {
     content: '';
@@ -56,7 +59,7 @@ padding-bottom: 0.5rem;
     bottom: 0;
     left: 50%;
     border-radius: 1.125rem;
-    background-color:  deepskyblue;
+    background-color: deepskyblue;
     transition: all 0.3s ease;
     transform: translateX(-50%);
     box-shadow: 0 0 10px deepskyblue, 0 0 20px deepskyblue, 0 0 30px deepskyblue;
@@ -82,6 +85,7 @@ padding-bottom: 0.5rem;
 .canidate__title {
     text-align: center;
 }
+
 .contacts__list {
     display: block;
     list-style-type: disc;
@@ -98,9 +102,10 @@ padding-bottom: 0.5rem;
     padding: 0.5625rem;
     margin: 1rem 0;
     font-size: 1.1875rem;
-    
+
     border-radius: 3.125rem;
 }
+
 .heading-h3 {
     font-size: 1rem;
 }
@@ -126,4 +131,94 @@ padding-bottom: 0.5rem;
 .skills__list-item {
     text-align: justify;
     line-height: 1.6;
+}
+
+pre {
+    display: block;
+    unicode-bidi: isolate;
+    white-space: pre;
+    margin-inline: 0rem;
+}
+
+code {
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 0;
+    font-size: 0.875rem;
+    font-family: monospace;
+}
+
+.work-experience__list {
+    display: block;
+    list-style-type: disc;
+    line-height: 1.6;
+    margin-block-start: 1rem;
+    margin-block-end: 1rem;
+    padding-inline-start: 1.25rem;
+    unicode-bidi: isolate;
+}
+
+.work-experience__description {
+    text-align: justify;
+    line-height: 1.6;
+}
+
+.education-projects__list {
+    display: block;
+    list-style-type: disc;
+    line-height: 1.6;
+    margin-block-start: 1rem;
+    margin-block-end: 1rem;
+    padding-inline-start: 1.25rem;
+    unicode-bidi: isolate;
+}
+
+.education-projects__description {
+    text-align: justify;
+    line-height: 1.6;
+}
+
+.languages__list {
+    display: block;
+    list-style-type: disc;
+    line-height: 1.6;
+    margin-block-start: 1rem;
+    margin-block-end: 1rem;
+    padding-inline-start: 1.25rem;
+    unicode-bidi: isolate;
+}
+
+.footer__content {
+    align-items: center;
+    display: flex;
+    padding: 1.25rem;
+    justify-content: space-between;
+}
+
+.rsschool-img {
+    width: 5.625rem;
+    height: 5.625rem;
+}
+
+@media (max-width: 918px) {
+    .menu__list {
+        font-size: 1.25rem;
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 783px) {
+    code {
+        font-size: small;
+        font-size: 0.75rem;
+    }
+
+}
+
+@media (max-width: 615px) {
+    code {
+        font-size: 0.4375rem;
+    }
+
 }
